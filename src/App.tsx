@@ -1,9 +1,10 @@
 import "./styles.scss";
 import "@webex/widget-space/src/momentum.scss";
 
-import SpaceWidget, { destinationTypes } from "@webex/widget-space";
+//import SpaceWidget, { destinationTypes } from "@webex/widget-space";
 // Sass import required to style widgets
 
+/*
 const spaceWidgetProps = {
   accessToken:
     "NmE0ZTYzZDktODg5OC00YjBhLTg2ZTYtZWI2NmViY2FhODViMzJiNGQ2NzktNWM5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f", // Required
@@ -18,6 +19,7 @@ const spaceWidgetProps = {
   initialActivity: "meet"
 };
 
+*/
 export default function App() {
   return (
     <div className="App">
@@ -28,7 +30,7 @@ export default function App() {
       <p>This will display a series of meeting cards.</p>
 
       <h2>Spaces</h2>
-      <SpaceWidget {...spaceWidgetProps} />
+
     </div>
   );
 }
